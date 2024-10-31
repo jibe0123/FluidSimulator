@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CD17AD9D2CD43D8E00B54CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD17AD832CD43D8D00B54CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD17AD8A2CD43D8D00B54CA9;
+			remoteInfo = FluidSimulator;
+		};
+		CD17ADA72CD43D8E00B54CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD17AD832CD43D8D00B54CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD17AD8A2CD43D8D00B54CA9;
+			remoteInfo = FluidSimulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD17AD8B2CD43D8D00B54CA9 /* FluidSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD17AD9C2CD43D8E00B54CA9 /* FluidSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD17ADA62CD43D8E00B54CA9 /* FluidSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CD17AD8D2CD43D8D00B54CA9 /* FluidSimulator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FluidSimulator;
+			sourceTree = "<group>";
+		};
+		CD17AD9F2CD43D8E00B54CA9 /* FluidSimulatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FluidSimulatorTests;
+			sourceTree = "<group>";
+		};
+		CD17ADA92CD43D8E00B54CA9 /* FluidSimulatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FluidSimulatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD17AD882CD43D8D00B54CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD17AD992CD43D8E00B54CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD17ADA32CD43D8E00B54CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD17AD822CD43D8D00B54CA9 = {
+			isa = PBXGroup;
+			children = (
+				CD17AD8D2CD43D8D00B54CA9 /* FluidSimulator */,
+				CD17AD9F2CD43D8E00B54CA9 /* FluidSimulatorTests */,
+				CD17ADA92CD43D8E00B54CA9 /* FluidSimulatorUITests */,
+				CD17AD8C2CD43D8D00B54CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD17AD8C2CD43D8D00B54CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD17AD8B2CD43D8D00B54CA9 /* FluidSimulator.app */,
+				CD17AD9C2CD43D8E00B54CA9 /* FluidSimulatorTests.xctest */,
+				CD17ADA62CD43D8E00B54CA9 /* FluidSimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD17AD8A2CD43D8D00B54CA9 /* FluidSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD17ADB02CD43D8E00B54CA9 /* Build configuration list for PBXNativeTarget "FluidSimulator" */;
+			buildPhases = (
+				CD17AD872CD43D8D00B54CA9 /* Sources */,
+				CD17AD882CD43D8D00B54CA9 /* Frameworks */,
+				CD17AD892CD43D8D00B54CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CD17AD8D2CD43D8D00B54CA9 /* FluidSimulator */,
+			);
+			name = FluidSimulator;
+			packageProductDependencies = (
+			);
+			productName = FluidSimulator;
+			productReference = CD17AD8B2CD43D8D00B54CA9 /* FluidSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD17AD9B2CD43D8E00B54CA9 /* FluidSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD17ADB32CD43D8E00B54CA9 /* Build configuration list for PBXNativeTarget "FluidSimulatorTests" */;
+			buildPhases = (
+				CD17AD982CD43D8E00B54CA9 /* Sources */,
+				CD17AD992CD43D8E00B54CA9 /* Frameworks */,
+				CD17AD9A2CD43D8E00B54CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD17AD9E2CD43D8E00B54CA9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD17AD9F2CD43D8E00B54CA9 /* FluidSimulatorTests */,
+			);
+			name = FluidSimulatorTests;
+			packageProductDependencies = (
+			);
+			productName = FluidSimulatorTests;
+			productReference = CD17AD9C2CD43D8E00B54CA9 /* FluidSimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD17ADA52CD43D8E00B54CA9 /* FluidSimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD17ADB62CD43D8E00B54CA9 /* Build configuration list for PBXNativeTarget "FluidSimulatorUITests" */;
+			buildPhases = (
+				CD17ADA22CD43D8E00B54CA9 /* Sources */,
+				CD17ADA32CD43D8E00B54CA9 /* Frameworks */,
+				CD17ADA42CD43D8E00B54CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD17ADA82CD43D8E00B54CA9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD17ADA92CD43D8E00B54CA9 /* FluidSimulatorUITests */,
+			);
+			name = FluidSimulatorUITests;
+			packageProductDependencies = (
+			);
+			productName = FluidSimulatorUITests;
+			productReference = CD17ADA62CD43D8E00B54CA9 /* FluidSimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD17AD832CD43D8D00B54CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					CD17AD8A2CD43D8D00B54CA9 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CD17AD9B2CD43D8E00B54CA9 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CD17AD8A2CD43D8D00B54CA9;
+					};
+					CD17ADA52CD43D8E00B54CA9 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CD17AD8A2CD43D8D00B54CA9;
+					};
+				};
+			};
+			buildConfigurationList = CD17AD862CD43D8D00B54CA9 /* Build configuration list for PBXProject "FluidSimulator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD17AD822CD43D8D00B54CA9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD17AD8C2CD43D8D00B54CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD17AD8A2CD43D8D00B54CA9 /* FluidSimulator */,
+				CD17AD9B2CD43D8E00B54CA9 /* FluidSimulatorTests */,
+				CD17ADA52CD43D8E00B54CA9 /* FluidSimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD17AD892CD43D8D00B54CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD17AD9A2CD43D8E00B54CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD17ADA42CD43D8E00B54CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD17AD872CD43D8D00B54CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD17AD982CD43D8E00B54CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD17ADA22CD43D8E00B54CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD17AD9E2CD43D8E00B54CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD17AD8A2CD43D8D00B54CA9 /* FluidSimulator */;
+			targetProxy = CD17AD9D2CD43D8E00B54CA9 /* PBXContainerItemProxy */;
+		};
+		CD17ADA82CD43D8E00B54CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD17AD8A2CD43D8D00B54CA9 /* FluidSimulator */;
+			targetProxy = CD17ADA72CD43D8E00B54CA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD17ADAE2CD43D8E00B54CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD17ADAF2CD43D8E00B54CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CD17ADB12CD43D8E00B54CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FluidSimulator/FluidSimulator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FluidSimulator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jibe.FluidSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD17ADB22CD43D8E00B54CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FluidSimulator/FluidSimulator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FluidSimulator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jibe.FluidSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CD17ADB42CD43D8E00B54CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jibe.FluidSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FluidSimulator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FluidSimulator";
+			};
+			name = Debug;
+		};
+		CD17ADB52CD43D8E00B54CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jibe.FluidSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FluidSimulator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FluidSimulator";
+			};
+			name = Release;
+		};
+		CD17ADB72CD43D8E00B54CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jibe.FluidSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FluidSimulator;
+			};
+			name = Debug;
+		};
+		CD17ADB82CD43D8E00B54CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jibe.FluidSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FluidSimulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD17AD862CD43D8D00B54CA9 /* Build configuration list for PBXProject "FluidSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD17ADAE2CD43D8E00B54CA9 /* Debug */,
+				CD17ADAF2CD43D8E00B54CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD17ADB02CD43D8E00B54CA9 /* Build configuration list for PBXNativeTarget "FluidSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD17ADB12CD43D8E00B54CA9 /* Debug */,
+				CD17ADB22CD43D8E00B54CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD17ADB32CD43D8E00B54CA9 /* Build configuration list for PBXNativeTarget "FluidSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD17ADB42CD43D8E00B54CA9 /* Debug */,
+				CD17ADB52CD43D8E00B54CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD17ADB62CD43D8E00B54CA9 /* Build configuration list for PBXNativeTarget "FluidSimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD17ADB72CD43D8E00B54CA9 /* Debug */,
+				CD17ADB82CD43D8E00B54CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD17AD832CD43D8D00B54CA9 /* Project object */;
+}
