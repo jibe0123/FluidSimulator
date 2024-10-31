@@ -16,7 +16,7 @@ struct MetalFluidView: NSViewRepresentable {
         mtkView.preferredFramesPerSecond = 60
         mtkView.colorPixelFormat = .bgra8Unorm
         mtkView.clearColor = MTLClearColor(red: 0, green: 0, blue: 0, alpha: 1)
-        mtkView.framebufferOnly = false // Permet d'utiliser la texture pour des opérations de calcul
+        mtkView.framebufferOnly = false
         mtkView.delegate = context.coordinator
         return mtkView
     }
@@ -35,7 +35,7 @@ struct MetalFluidView: UIViewRepresentable {
         mtkView.preferredFramesPerSecond = 60
         mtkView.colorPixelFormat = .bgra8Unorm
         mtkView.clearColor = MTLClearColor(red: 0, green: 0, blue: 0, alpha: 1)
-        mtkView.framebufferOnly = false // Permet d'utiliser la texture pour des opérations de calcul
+        mtkView.framebufferOnly = false
         mtkView.delegate = context.coordinator
         return mtkView
     }
